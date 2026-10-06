@@ -1,0 +1,77 @@
+<!-- CSS Position Property  -->
+ <!-- 
+here , we will talk about another thing in the position property : sticky
+
+note : sticky and fixed are different , they are not the same
+
+sticky : in the sticky property , before we scroll , it will appear that it is fixed in a position
+but when we scroll down , it will move a bit and it will stick to the particular position 
+
+but we have to give it a position , telling that where it will be stick in the webpage
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Property</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .box {
+        padding: 90px;
+        margin: 17px;
+        
+        border: 3px solid black;
+    }
+
+    .box1 {
+        background-color: aquamarine;
+        position:sticky;
+        top: 0px;
+        width: 80vw;
+    }
+
+    .box2 {
+        background-color: gold
+    }
+
+    .box4 {
+        background-color: gold
+    }
+
+    .box5 {
+        background-color: gold
+    }
+
+    .box6 {
+        background-color: gold
+    }
+
+    .box7 {
+        background-color: gold
+    }
+
+    .box3 {
+        background-color: green;
+    }
+</style>
+
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+    <div class="box box7"></div>
+</body>
+
+</html>

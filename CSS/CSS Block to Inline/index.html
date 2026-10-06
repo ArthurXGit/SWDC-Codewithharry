@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block to inline</title>
+    <style>
+        * {
+            margin: 2px;
+            padding: 3px;
+        }
+
+        .box {
+            display: inline-block;
+            /*
+            * Inline element and block elements.
+            * inline element poora row ka space nahi lete , jitna likha hota h utna hein lete hein.
+            * block element poora row ka space le lete hein 
+            * agar block ko inline bana na h toh fir display property ka use karke us particular cheez ko inline kardo with the help of css
+            * but here is the condition : u can't able to change the width of that element
+            * to do that , use inline - block thing.
+            */
+            margin: 29px;
+            padding: 22px;
+            border: 2px solid blue;
+            width: 69px;
+        }
+
+        .box1{
+            /* /* visibility: hidden; */
+            /* *agar isko use karoge toh inside content gayab ho jayega lekin space rahega
+            */ 
+            /* display: none;
+            * agar isko use kiya jaa rha h toh woh cheez hein gayab kar dega
+             */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        iam a pc user
+    </div>
+    <div class="box1">
+        we are all good
+    </div>
+
+    <span>
+        iam also a pc user
+    </span>
+    <span>
+        yeah , me too.
+    </span>
+</body>
+
+</html>

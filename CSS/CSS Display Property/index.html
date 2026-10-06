@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box {
+            border: 5px solid blue;
+            display: inline-block;
+            /* width: 7px; */
+            margin: 50px;
+            padding: 50px;
+            /* display: none; */
+            /* visibility: hidden; */
+        }
+
+        /*
+         we can convert a inline element to a block element and block element to the inline element by using the display property
+        
+        1. display : inline; = it converts any block element to the inline element
+        2. display : block; = it converts any inline element to the block element
+        */
+
+        /* .block{
+            border: 5px solid red;
+            display: block;
+            margin: 50px;
+            padding: 50px;
+        } */
+
+        /* 
+        note : in display : inline , we cant apply width. Margin and padding are applied to everywhere except the top 
+        for this , use inline-block instead.
+        */
+
+        /* 
+        display : none; = removes all of the things from the display completely
+
+        visibility : hidden; = hides the space only from the display..
+        */
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        We are ready to go .....
+    </div>
+    <div class="box">Iam in a university</span>
+    <!-- <div class="box">which is a good place</span> -->
+</body>
+
+</html>

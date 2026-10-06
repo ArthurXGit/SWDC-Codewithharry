@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling of lists</title>
+    <style>
+        nav ul li{
+            /* list-style: armenian; */
+            background-color: rgb(105, 81, 81);
+            list-style-position: inside;
+            /* list-style-type: "😎"; */
+            /* list-style-image: url("Screenshot 2026-09-01 195442.png"); */
+            /* list-style-image: url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif"); */
+            list-style: circle inside url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif");
+        }
+        /* 
+        note : 
+        every list contains : 1. marker(dot symbol before the name  of list items) 
+                              2. list item name 
+
+        the display value for this is list-item , which contains those two things
+
+        if we ever want to style a list , we are gonna use the nav bar to style the list
+
+        nav ul li means
+        go to nav , after that go to ul and go to li ....
+
+        ul stands for unordred list broooo.....
+
+        list-style-position : 
+        it's a property of CSS  , which have two values : 
+        1. inside
+        2. outside
+
+        list style position simply tells that whether the marker gonna stay inside or outside of the reserved space 
+        if it's value is inside , it is gonna stay in the reserved space
+        if it's value is outside , it's gonna stay outside (which is by default)
+
+        list-style-type : "emoji icon" if u want to give an emoji as marker
+
+        we can write like this also : 
+        list-style: disc inside url();
+
+        at a time , u can use either disc for marker or url for marker
+
+        in the inspect section in the browser , if we select an element and write something inside the "element.style" , it will add as the inline css (important)
+
+
+        note : list style have three values : 
+        1. list style type
+        2. list style position
+        3. list style image
+
+        list-style : type position image;
+
+        */
+    </style>
+</head>
+<body>
+    <nav>
+       <ul>
+        <li>home</li>
+        <li>start</li>
+        <li>end</li>
+       </ul>
+    </nav>
+</body>
+</html>

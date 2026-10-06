@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS OUTLINES AND SHADOWS</title>
+</head>
+
+<style>
+.boxshadow{
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid black;
+    box-shadow: 5px 15px 5px 20px rgb(33, 68, 34)
+    /* the syntax of the box-shadow is : 
+        box-shadow : x-offset y-offset blur spread color;    
+
+        spread : if this is positive , it will expand
+                 if the spread is negative , it will shrink
+                 if the spread is zero , no spread will be applied
+    */
+
+}
+
+.textshadow{
+    outline: 5px auto red;
+    outline-offset: 6px;
+    border: 5px double blue;
+    border-radius: 5px;
+    
+    /* 
+    the syntax of the text-shadow is : 
+        text-shadow : x-offset y-offset blur color;
+    */
+
+    /* note : text shadow part doesnt have the spread part , got it .... */
+}
+
+/* 
+about outlines
+
+outlines : not the part of the actual box model
+           separation can be increased
+           it's not border (remember this)
+
+           to apply : outline : width style color;
+
+                    outline contains three things : 
+                    1. width 
+                    2. style 
+                    and the last one is 
+                    3. color
+                    style can be dotted , solid and much more....
+                    1. dotted
+                    2. solid
+                    3. dashed
+                    4. double
+                    5. auto (set the outline style automatically , which is default)
+                      outline-offset : 
+                      why it's called offset?
+                      ans : as i learned from gemini , offset refers to the distance from the starting line .
+
+                      the greater the offset dist , the far the outline will appear
+                      however , if we set that value in negative , it will come inside the box.....
+
+*/
+</style>
+
+<body>
+    <div class="boxshadow">
+        Iam in a good place.
+    </div>
+
+    <div class="textshadow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in ex ducimus sunt. Eligendi sapiente, officia, voluptatum dicta officiis excepturi illo pariatur et quas rem veritatis debitis doloremque. Sunt corrupti quibusdam magni fugit sed.
+    </div>
+</body>
+</html>

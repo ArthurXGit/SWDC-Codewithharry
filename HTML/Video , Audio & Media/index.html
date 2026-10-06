@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Bille Jean - Stage Performance by Michael Jackson</title>
+</head>
+
+<body>
+
+    <div>
+        <video src="YTDown_YouTube_Michael-Jackson-Billie-Jean-Live-1983_Media_kM5ywtImaSs_001_480p.mp4" height="169"
+            controls poster="images (1).jpg"></video>
+    </div>
+    <!-- 
+    here , by using the vdo tag , we can add a video to the website.......
+    here , src attribute refers to the path of that vdo
+    height and width attribute toh aap pehle se hein jante hein
+    by using the controls attribute , you can give the play and pause feature to that vdo
+    kya kya feature dena h woh browser ka kaam h
+    poster dene se hum vdo ke starting ma jo picture nahi rehta ... like yt ke thumbnails jaisa , waisa hein h yeh bhi......
+    muted attribute ka use karke hum ek vdo ko muted hein rkh sakta hein
+    and loop attribute ka use karke hum , us vdo ko loop ma chala sakte hien.... 
+    and autoplay attribute ka use karke hum us vod ko autoplay ma rakh sakte hein :) -->
+
+    <div>
+        <audio src="Michael Jackson - They Don't Care About Us.mp3" controls ></audio>
+        <!-- 
+        video tag ke saath jo 
+        controls , src , autoplay , loop , muted jo the na , woh audio mein bhi kaam aayenge .......
+        same function...
+        
+        agar koi video ya fir koi photo h na toh controls likhne ke baad hein woh dikhai dega :)-->
+    </div>
+
+    <!-- 
+    IMP POINT TO NOTE :-
+    
+    preload attribute hota h audio tag ka and iske 3 values hein
+    1.none
+    2.metadata
+    3.auto
+    
+    none:-
+    iska matlab yeh h ki hum browser ko yeh bata rehe hein ki , ek audio agar h ... toh jaise hein user us website ko khole .... toh woh video ko download na kare kholte hien
+    
+    metadata:-
+    iska matlab yeh h ki yeh bata ta h browser ko to fetch the data about the audio eg. audio length...
+
+    auto:-
+    jab hume browser ko bolna hota h ki jab ek user koi ek web page khole and automatically kholte hin audio download shuru ho jaye toh iska use kiya jaata h 
+    -->
+
+    <!-- 
+    audio , video , svg and img are inline elements..... -->
+    <svg height="100" width="100">
+    <circle cx="50" cy="50" r="10" stroke="black" stroke-width="3" fill="red" />
+</svg>
+
+<!-- <img src="img.svg" alt="image not found"> -->
+<!-- 
+if u want to add that svg image by using image tag .. create the svg file and dont forget to use the namespace identifier otherwise u wont get the image
+
+smlns = "http://www.w3.org/2000/svg"
+
+this is the namespace identifer.......-->
+
+
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4V90AmXnguw?si=yPyXJV2OaffnSTLe&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=C1AUntG6q7hjIwpS&amp;start=790" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+
+</body>
+
+</html>

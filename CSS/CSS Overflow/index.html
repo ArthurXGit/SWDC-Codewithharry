@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 5px solid black;
+            width: 30vw;
+            height: 20vh;
+            /* overflow: scroll; */
+
+            /* overflow: auto;
+            white-space: nowrap;
+            text-overflow: ellipsis; */
+
+            /* overflow-x: auto;
+            overflow-y: hidden;
+            */
+            
+            overflow: hidden auto;
+        }
+        /* 
+        note : text-overflow and overflow are different things ....
+        text-overflow manages only the overflow of the text
+
+        meanwhile only overflow manages the box overflow 
+
+        lol... overflow ka overflow , hahah 
+        
+        u can set overflow in x and y direction both ....
+
+        to set overflow in the x-direction : use overflow-x
+        to set overflow in the y-direction : use overflow-y
+
+        we can use one line to declare overflow property in both x direction and y direction
+        syntax : (overflow : overflow-x overflow-y;)
+        
+        harry bhai recommendation : use 'auto' as overflow property value cuz , it will only apply scroll bar when there is really an overflow happened
+        that's why !!
+        */
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ullam modi distinctio reiciendis adipisci consectetur quis saepe qui, pariatur sint ab. Modi, necessitatibus!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus expedita, totam incidunt vitae dolor tempore, consequatur quia odit quidem veritatis modi, praesentium ullam voluptatibus eius temporibus accusamus repudiandae ea illum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo dolor, magni numquam quos accusamus maiores doloremque quasi harum molestiae inventore aut cum, corporis accusantium asperiores porro. Veniam provident accusantium aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellat dolorem adipisci quaerat omnis obcaecati laborum possimus tempore? Blanditiis numquam veritatis aliquid eveniet quasi consequuntur tempore atque cumque cupiditate ducimus, voluptates laudantium laborum culpa ex facilis, necessitatibus harum dolorum possimus quis eum. Quas, hic expedita?
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color : rgba(98, 98, 240, 0.88);
+    --seccolor : rgb(69, 156, 238);
+    --defpad : 20px;
+}
+
+ul {
+    display: flex;
+    padding: var(--defpad);
+}
+
+li{
+    list-style-type: none;
+}
+
+ul li {
+    margin: 15px;
+    padding: 15px;
+}
+
+div{
+    background-color: var(--color);
+}
+
+.home{
+    --color : rgba(229, 106, 6, 0.88);
+    background-color: var(--color , cyan);
+    border: 3px solid var(--seccolor);
+}

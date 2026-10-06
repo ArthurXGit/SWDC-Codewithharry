@@ -1,0 +1,38 @@
+.items {
+    border: 2px solid red;
+}
+
+.container {
+    display: grid;
+
+    border: 2px solid black;
+
+    grid-template-columns: repeat(4 , 40px);
+
+    width: 100vw;
+
+    
+    /* grid-template-columns: [first-col] 120px [second-col] 100px;
+    grid-template-rows: [first-row]100px [second-row] 100px; */
+    /* grid-template-areas: "nav nav nav "
+                         "col article article"
+                         "footer footer footer"; */
+    /* grid-template-columns: repeat(4 , 40px);
+    grid-template-rows: repeat(3 , 30px); */
+
+    /* grid-template-columns: repeat(4, minmax(100px, 150px));
+     
+
+    in the minmax function , we mainly apply it inside the repeat function ....
+    in starting , we set the min value and at the second place , we set the max value
+
+    */
+
+    /* fr stands for fraction */
+    /* gap: 2px 100px; */
+    /* row-gap: 2px;
+    column-gap: 30px; */
+
+    /* in flexbox and grid , dont use the margin and the padding 
+    use gap property ........ */
+}

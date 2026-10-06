@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+        }
+
+        h1.harry{
+            color: green;
+        }
+        /* this is the complex selector : )
+        
+        it's specificity is gonna add , 
+        
+        h1 is the element selector , so 1 plus harry is the class so 1 adds to 10 results 11.
+        
+        */
+        .cred{
+            color: blue;
+        }
+
+        .cpurple{
+            color: purple;
+        }
+
+        .cblack{
+            color:brown;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <!-- <div style="color: red;"   class="cred cpurple cblack" >
+        CSS Specificity
+    </div> -->
+
+    <h1 class="harry cred cpurple cblack">
+        iam a good boy
+    </h1>
+</body>
+</html>
+
+

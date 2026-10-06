@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employement Form - GUP</title>
+</head>
+
+<body>
+    <div>
+        <label for="001">Name of that transgenda</label>
+        <input type="text" id="001" name="username" placeholder="Enter your username">
+        <!--some points to note :-
+        input tag use karke hum user se inputs lete hein
+
+        **<input type="text" id="001" name="username" placeholder="Enter your username">**
+
+        isme , type ek tag h , and id , name and placeholder bhi tags hien
+        text type ka matlab yeh h ki , input mein hum text as a input denge
+        id matlab usko peh chan ne ke liye alag se ek marker types;
+        placeholder ka matlab h ki jis dabbe mein hum nam dalke input le rhe hien... usme harwqt ek msg likha rahega ki : "enter your username".
+        name yeh darshata h ki woh input kiska liya jayega :)
+        -->
+
+    </div>
+    <div>
+        <label for="male">Enter Your Gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Gay</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Femboy</label>
+        <!-- in this type , where u want to select an option .... these types of input tags are used :)
+         
+        note : if u type the ids like 
+        in the above code ..... the input and label tags are for male and female , but their name is same so at a time u can select only one option ..... if their ids are correct in label as written in the input tag.... then we can select then by clicking their name itself
+
+        but .... if we change the id in that label a little bit ... then we can not select that option by clicking in the name .. 
+
+        we have to select the circle itself...
+        -->
+    </div>
+
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">All of the above</label>
+        <!-- 
+          list for typos 
+          for checkboxes : write checkbox
+          for text input : write text
+          for radio input (select one type) : write radio
+
+          **<label for="001">Name of that transgenda</label>**
+
+          this label tag line code is same for all
+          :)
+           -->
+
+
+    </div>
+
+    <div>
+        <label for="428055">Enter the msg to send the users</label>
+        <br>
+        <textarea  id = "428055"name="comment" rows="4" cols="50"></textarea>
+
+        <!-- 
+        this code .....
+        <textarea  id = "428055"name="comment" rows="4" cols="50"></textarea> 
+
+        is used for text area ... like a space to comment
+
+        text area type = "text" ke liye kaam karta h and 
+        isme rows and cols ka hein specific types use kiya jaata h 
+         -->
+    </div>
+</body>
+
+</html>

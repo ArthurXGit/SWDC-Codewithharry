@@ -1,0 +1,52 @@
+/* element selector */
+div {
+    color: gray;
+    background-color: black;
+
+}
+
+/* class selector */
+.cyan {
+    color: cyan;
+}
+
+/* id selector */
+#jack {
+    color: goldenrod;
+}
+
+/* child selector */
+
+div>p {
+    color: green;
+
+}
+
+/* 
+        decsendent selector */
+
+div p {
+    color: violet;
+}
+
+/* note : decsendent selector also is a child selector */
+
+/* pseudo selector */
+
+a:hover {
+    color: black;
+    background-color: bisque;
+}
+
+a:active {
+    color: blue;
+    background-color: aqua;
+}
+
+a:link {
+    color: goldenrod;
+}
+
+p:first-child {
+    color: aliceblue;
+}
